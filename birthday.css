@@ -1,0 +1,114 @@
+@font-face {
+    font-family: HappyMonkey-Regular;
+    src: url("Happy_Monkey/happy-monkey.regular.ttf");
+}
+
+body {
+    font-family: HappyMonkey-Regular;
+    text-align: center;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    text-shadow: 0px 0px 5px grey;
+}
+
+#image1 {
+    border-radius: 50%;
+    border: 8px solid pink;
+    width: 200px;
+    height: 200px;
+}
+
+#bday-age {
+    background: pink;
+    padding: 5px 10px;
+    border-radius: 5px;    
+}
+
+#bday-date {
+    background: pink;
+    padding: 5px 10px;
+    border-radius: 5px; 
+    margin-top: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-section {
+    margin: 50px auto;
+}
+
+.gift-title {
+    margin-bottom: 10;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img1 {
+    border-radius: 20px;
+    border: 5px solid aliceblue;
+    width: 350px;
+    height:350px;
+    background-image: url("images/packaging.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.gift-img1:hover {
+    background-image: url("images/happy.gif");
+}
+
+.gift-img2 {
+    border-radius: 20px;
+    border: 5px solid aliceblue;
+    width: 350px;
+    height:350px;
+    background-image: url("images/packaging.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.gift-img2:hover {
+    background-image: url("images/hot.gif");
+}
+
+.gift-img3 {
+    border-radius: 20px;
+    border: 5px solid aliceblue;
+    width: 350px;
+    height:350px;
+    background-image: url("images/packaging.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.gift-img3:hover {
+    background-image: url("images/special.gif");
+}
+
+.gift-img4 {
+    border-radius: 20px;
+    border: 5px solid aliceblue;
+    width: 350px;
+    height:200px;
+    background-image: url("images/packaging.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.gift-img4:hover {
+    background-image: url("images/love3.gif");
+}
+
+.text1 {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 50px;
+    
+}
